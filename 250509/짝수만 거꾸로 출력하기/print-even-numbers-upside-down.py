@@ -1,4 +1,6 @@
 N = int(input())
-arr = []
+arr = list(map(int,input().split()))
 
-print(arr[1])
+for i in range(N-1,-1,-1):
+    if arr[i] % 2 == 0:
+        print(arr[i],end=" ")
