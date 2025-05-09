@@ -6,4 +6,4 @@ if Y % 4 == 0:
     else:
         print("true")
 else:
-    print("ture")
+    print("true")
