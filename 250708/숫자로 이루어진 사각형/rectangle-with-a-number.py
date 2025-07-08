@@ -11,4 +11,4 @@ def square(n):
                 cnt += 1
         print()
         
-square(4)
+square(n)
